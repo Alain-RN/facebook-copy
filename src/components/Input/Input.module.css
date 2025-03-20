@@ -26,8 +26,8 @@
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
-    height: 22px;
-    width: 22px;
+    height: 24px;
+    width: 24px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -35,5 +35,5 @@
 }
 
 .eye:hover {
-    background: #d4d4d4;
+    background: #e2e2e2;
 }

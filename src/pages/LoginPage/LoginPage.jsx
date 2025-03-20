@@ -13,10 +13,15 @@ export default function LoginPage() {
                 (accountList.length == 0)?
 
                     <div className={styles.introduction}>
-                        <img src="/facebookImg/facebook.svg" alt="" />
-                        <p>
+                        <img 
+                            className={styles.facebook}
+                            src="/facebookImg/facebook.svg" 
+                            alt="Facebook" />
+                        <h2
+                            className={styles.introH2}
+                        >
                             Avec Facebook, partagez et restez en contact avec votre entourage.
-                        </p>
+                        </h2>
                     </div>
 
                     :

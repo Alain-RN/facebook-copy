@@ -18,4 +18,9 @@
 
 .btnGreen {
     background: #42b72a;
+    margin-bottom: 12px;
+}
+
+.btnGreen:hover {
+    background: #3ca726;
 }

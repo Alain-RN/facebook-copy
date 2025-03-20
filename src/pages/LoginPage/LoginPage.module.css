@@ -1,12 +1,36 @@
 .container {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    align-items: center;
-    height: 100%;
+    /* align-items: center; */
+    width: 978px;
+    margin: auto;
+    justify-content: space-between;
+    padding-block: 32px;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+
 }
+
 .introduction {
-    background: rebeccapurple;
+    margin-top: 68px;
+    /* background: rebeccapurple; */
+    height: fit-content;
+}
+
+.facebook {
+    height: 106px;
+    margin: -28px;
+}
+
+.introH2 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 34px;
+    width: 500px;
+
+    margin-top: 12px;
+    /* margin-left: 32px; */
 }
 
 .recentAccount {
