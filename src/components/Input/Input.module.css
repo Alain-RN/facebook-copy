@@ -1,0 +1,39 @@
+.inputContainer {
+    position: relative;
+    color: black;
+
+}
+
+.inputComponent{
+    outline: none;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 330px;
+    border: #dddfe2 1px solid;
+    caret-color: var(--primary);
+    border-radius: 6px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.813);
+
+}
+
+.inputComponent:focus {
+    border: var(--primary) 1px solid;
+}
+
+.eye {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eye:hover {
+    background: #d4d4d4;
+}

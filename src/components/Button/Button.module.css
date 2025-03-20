@@ -1,0 +1,21 @@
+.btn {
+    border: none;
+    padding: 14px;
+    font-size: 19px;
+    font-weight:800;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btnPrimary {
+    background: var(--primary);
+}
+
+.btnPrimary:hover {
+    background: #0867ffed;
+}
+
+.btnGreen {
+    background: #42b72a;
+}
